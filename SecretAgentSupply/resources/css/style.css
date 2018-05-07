@@ -1,0 +1,233 @@
+html{
+  font-size: 18px;
+  color: white;
+}
+
+header{
+  width: 100%;
+  background-color: black;
+}
+
+.Top{
+
+  display: inline-flex;
+}
+
+.Top img{
+  margin-left: 5rem;
+  height: 1.5rem;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+.Top h1{
+  font-family: helvetica;
+  font-size: 1rem;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+  margin: 0rem;
+}
+
+.mban{
+  width: 100%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bantxt{
+
+  display: block;
+  position: relative;
+  background-color: black;
+  width: 20rem;
+  top: 9rem;
+  margin-left: 5rem;
+  padding: 2rem 3rem;
+}
+
+.bantxt h2{
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0rem;
+
+}
+
+.bantxt h3{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.25rem 0rem 0rem 0rem;
+}
+
+nav{
+
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+  width: 100%;
+  padding: 0.75rem 0rem;
+}
+
+nav span{
+  text-decoration: none;
+  color: white;
+  padding: 0rem 3rem;
+}
+
+
+
+.Merch{
+  width: 100%;
+  display: inline-flex;
+  margin-top: 3rem;
+}
+
+.Epen{
+  display: block;
+  text-align: center;
+  height: 15.5rem;
+  width: 30%;
+  border: 4px solid black;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+
+}
+
+.Epen img{
+
+  margin: 2rem 3rem;
+  height: 9rem;
+
+}
+
+.Eptxt{
+  background-size: cover;
+  background-color: black;
+  margin: 0rem;
+  padding: 0.5rem 0rem;
+}
+
+.Cwatch{
+  display: block;
+  text-align: center;
+  height: 15.5rem;
+  width: 30%;
+  border: 4px solid black;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.Cwatch img{
+  margin: 2rem 3rem;
+  height: 9rem;
+}
+
+.Cwtxt{
+  background-size: cover;
+  background-color: black;
+  margin: 0rem;
+  padding: 0.5rem 0rem;
+}
+
+.Tglass{
+  display: block;
+  text-align: center;
+  height: 15.5rem;
+  width: 30%;
+  border: 4px solid black;
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+}
+
+.Tglass img{
+  margin: 3.75rem 3rem;
+  height: 5.5rem;
+}
+
+.Tgtxt{
+  background-size: cover;
+  background-color: black;
+  margin: 0rem;
+  padding: 0.5rem 0rem;
+}
+
+.adinfo{
+  display: inline-flex;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.Location{
+  font-family: helvetica;
+  font-size: 1rem;
+  display: block;
+  width: 35%;
+  margin-left: 1.5rem;
+}
+
+.Location h5{
+  font-size: 1rem;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0rem;
+}
+
+.Location a{
+  font-size: 1rem;
+  color: black;
+  margin: 0rem;
+}
+
+.Hours{
+  font-family: helvetica;
+  font-size: 1rem;
+  display: block;
+  width: 35%;
+  margin-left: 16.8rem;
+  margin-top: 0rem;
+  padding-top: 0rem;
+
+}
+
+.Hours h6{
+  font-size: 1rem;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0rem;
+}
+
+.Hours a{
+  font-size: 1rem;
+  color: black;
+  margin: 0rem;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  margin-top: 4rem;
+  height: 5rem;
+
+}
+
+footer a{
+  padding-left: 2rem;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1rem;
+  font-family: helvetica;
+}
+
+@media only screen and (min-width: 760px) and (max-width:1024px)
+{
+  .Epen .Cwatch{
+    width: 47%;
+  }
+}
